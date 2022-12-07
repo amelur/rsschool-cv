@@ -1,1 +1,1 @@
-https://amelur.github.io/rsschool-cv/cv
+https://amelur.github.io/rsschool-cv/
