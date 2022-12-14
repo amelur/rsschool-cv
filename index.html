@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/cv-icon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>CV</title>
-</head>
-<body>
-    <p>CV</p>
-</body>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <section class="section-name">
+          <img class="ava" src="assets/img/ava.jpg" alt="avatar" />
+          <h1>Andrei Amelin</h1>
+        </section>
+      </div>
+      <div class="container nav-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link">Contact information</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Code" class="nav-link">Code Example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Languages" class="nav-link">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Projects" class="nav-link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="Contact">
+          <h2 class="section-title">Contact information</h2>
+          <ul>
+            <li>Location: Vilnius, Lithuania</li>
+            <li>tel: +37065245343</li>
+            <li>Whatsapp/Viber/Skype +375296910929</li>
+            <li>Discord: amelur#1434</li>
+            <li>
+              Email:<a href="mailto:ameluckin@gmail.com">
+                ameluckin@gmail.com</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="About">
+          <h2 class="section-title">About me</h2>
+          <p>
+            12 years of experience in international freight forwarding by
+            road/railway/air. Perhaps after changing the profession, there will
+            be an opportunity to participate in projects for sending goods into
+            space).
+          </p>
+        </section>
+        <section class="section" id="Skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </section>
+        <section class="section" id="Code">
+          <h2 class="section-title">Code Example</h2>
+          <pre>
+            function multiply(a, b){
+              a * b
+             }
+            </pre
+          >
+        </section>
+        <section class="section" id="Education">
+          <h2 class="section-title">Education</h2>
+          <p>RS-School JS/FE Stage 0 (in progress)</p>
+        </section>
+        <section class="section" id="Languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian native</li>
+            <li>English A2</li>
+          </ul>
+        </section>
+        <section class="section" id="Projects">
+          <h2 class="section-title">Projects</h2>
+          <p><a href="https://amelur.github.io/rsschool-cv/">CV</a></p>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>December 2022</p>
+        <a href="https://github.com/Amelur">Github</a>
+        <a href="https://rs.school/js/"
+          ><img src="assets/img/rs_school_js.svg" alt="RSS-icon" width="130"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
